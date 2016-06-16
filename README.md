@@ -1,9 +1,9 @@
 php_apk_parser
 ==============
-
+#简介
 Android APK XML File Decompress Class For PHP
 
-#Example
+#使用案例
 
 ```php  
 <?php  
@@ -13,11 +13,11 @@ Android APK XML File Decompress Class For PHP
 
 include('./Apkparser.php');
 
-$appObj    = new Apkparser(); 
+$appObj     = new Apkparser(); 
 
-$targetFile = a.apk;//apk所在的路径地址
+$targetFile = "/uploads/demo.apk";	//apk文件的所在路径地址
 
-$res     = $appObj->open($targetFile);
+$res        = $appObj->open($targetFile);
 
 $appObj->getAppName();         // 应用名称
 
