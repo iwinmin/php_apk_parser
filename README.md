@@ -1,5 +1,6 @@
 php_apk_parser
 ==============
+
 #简介
 Android APK XML File Decompress Class For PHP
 
@@ -28,3 +29,6 @@ $appObj->getVersionName();    // 版本名称
 $appObj->getVersionCode();    // 版本代码
 ?>
 ```
+  
+email:lookphp@163.com  
+QQ群：202667798 PHP7社区开发高级1群   
